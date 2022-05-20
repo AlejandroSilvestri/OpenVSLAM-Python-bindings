@@ -5,6 +5,10 @@ By compiling the provided cpp file, you get the module **openvslam** that let yo
 
 Right now no bindings for viewers are provided, so do not expect to see the 3D map nor the features over the image.
 
+## OpenVSLAM supported versions
+These bindings should work with the original OpenVSLAM, OpenVSLAM community fork and Stella-vslam until version 0.21 March 21.
+Stella-vslam version 0.22 changed the API rendering these bindings unusable.  Proper bindings for that version and on are provided at Stella-vslam Python bindings repo.
+
 ## Building the bindings
 In order to get a **openvslam** module you can import from Python, you need to:
 
